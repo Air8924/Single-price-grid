@@ -1,0 +1,112 @@
+@import url(https://fonts.google.com/specimen/Karla);
+
+:root {
+    --grayish-blue: hsl(218, 22%, 67%);
+    --light-gray: hsl(204, 43%, 93%);
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --font-fam: "karla", sans-serif;
+    --font-size: 15px;
+}
+
+p {
+    line-height: 2;
+    color: var(--grayish-blue)
+}
+
+h2 {
+    font-size: 1.5em;
+    transform: scaleY(0.9);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.25em;
+    transform: scaleY(0.9);
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: var(--light-gray);
+    font-family: var(--font-fam);
+    padding: 40px;
+}
+
+.container {
+    max-width: 740px;
+    min-width: none;
+    margin: auto;
+    height: auto;
+    line-height: 1.5rem;
+    border-radius: 3rem;
+    box-shadow: 0px 5px 20px 0px var(--grayish-blue);
+}
+
+.row {
+    box-sizing: inherit;
+    height: 100%;
+}
+
+.bg-cyandark {
+    background-color: var(--cyan);
+}
+
+.bg-cyanlight {
+    background-color: rgba(106, 190, 189, 1);
+}
+
+.lime {
+    color: var(--bright-yellow);
+}
+
+.green {
+    color: var(--cyan);
+}
+
+.grayish {
+    color: var(--light-gray);
+    opacity: 0.85;
+}
+
+.white {
+    color: white;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 2.5em;
+}
+
+.color- {
+    color: var(--bright-yellow);
+}
+
+.btn {
+    width: 100%;
+    padding: 0.8em;
+    box-shadow: 2px 6px 8px 0 rgba(60, 60, 60, 0.2);
+    background-color: var(--bright-yellow);
+    color: white;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.attribution {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
